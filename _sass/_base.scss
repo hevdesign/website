@@ -299,9 +299,9 @@ header {
     @include button-variant($theme-dark, white, white);
 }
 
-.btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
-}
+//.btn-primary {
+//    @include button-variant(white, $theme-primary, $theme-primary);
+//}
 
 .btn {
     @include sans-serif-font;
