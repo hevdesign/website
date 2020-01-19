@@ -4,6 +4,7 @@
  */
 /* FONT PATH
  * -------------------------- */
+<FilesMatch “.(ttf|otf|woff)$”> Header set Access-Control-Allow-Origin “*” </FilesMatch>
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
